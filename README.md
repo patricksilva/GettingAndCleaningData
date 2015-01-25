@@ -158,7 +158,7 @@ R> write.table(td, file = "tidydata.txt", row.names = FALSE)
 
 ## Running the Script
 
-1. Download the zip file to your computer and unzip it to a directory
+1. Download the [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to your computer and unzip it to a directory
 2. Open RStudio (Version 0.98.1091)
 3. Set the working directory of RStudio to the *UCI HAR Dataset* directory
 4. Copy the *run_analysis.R* file to the working directory
