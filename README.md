@@ -153,6 +153,9 @@ R> tdMelt <- melt(data_reduced, id=c("subject", "activity"), measure.vars=names(
 R> tdData <- dcast(tdMelt, activity + subject ~ variable, mean)
 R> td <- tdData[, c(2, 1, 3:68)]
 R> write.table(td, file = "tidydata.txt", row.names = FALSE)
+R> View(data_reduced)
+R> View(td)
+R> return(td)
 ```
 <br>
 
