@@ -1,6 +1,6 @@
-<center> <h1>Course Project - README</h1> </center>
-<center> <h3>Getting and Cleaning Data</h3> </center>
-<center> <h3>January 2015</h3> </center>
+# Course Project - README
+### Getting and Cleaning Data
+### January 2015
    
 <br>
 
