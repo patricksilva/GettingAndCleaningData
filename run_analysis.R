@@ -66,4 +66,7 @@ tidydata <- function() {
      # write the independent tidy data set of Step 5 to a file, tidydata.txt, in 
      # the working directory
      write.table(td, file = "tidydata.txt", row.names = FALSE)
+
+     # send the tidy data output to the console
+     td
 }
