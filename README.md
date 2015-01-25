@@ -165,6 +165,9 @@ R> write.table(td, file = "tidydata.txt", row.names = FALSE)
 5. Create an R object by sourcing the file
      + R> source("run_analysis.R")
 6. Load the *plyr*, *dplyr*, and *reshape2* libraries in RStudio
+     + R> library(plyr)
+     + R> library(dplyr)
+     + R> library(reshape2)
 7. Run the script
      + R> tidydata()
 
