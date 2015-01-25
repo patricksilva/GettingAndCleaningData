@@ -8,7 +8,7 @@ This is the code book for Step 5 of the project.
 
 > *5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.*
 
-The *melt()* and *dcast()* functions were performed on the data set from Step 4 to compute the desired result.  The data set was reduced from 10299 observations to 180 observations of 68 variables.  It would be interesting to see what would happen if the 'activity' type was 'character' instead of 'factor'.
+The *melt()* and *dcast()* functions were applied on the data set from Step 4 to compute the desired result.  The data set was reduced from 10299 observations to 180 observations of 68 variables.  It would be interesting to see what would happen if the 'activity' type was 'character' instead of 'factor'.
 
 
 |variable                                                                  |type                         |description                                                                           |
