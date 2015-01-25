@@ -4,10 +4,17 @@
 
 <br>
 
+This is the code book for Step 5 of the project.
+
+> *5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.*
+
+The *melt()* and *dcast()* functions were performed on the data set from Step 4 to compute the desired result.  The data set was reduced from 10299 observations to 180 observations of 68 variables.  It would be interesting to see what would happen if the 'activity' type was 'character' instead of 'factor'.
+
+
 |variable                                                                  |type                         |description                                                                           |
 |:-------------------------------------------------------------------------|:----------------------------|:-------------------------------------------------------------------------------------|
 |subject                                                                   |integer                      |identifier of the subject who performed the activity [1]                              |
-|activity                                                                  |character                    |activity of daily living performed [2]                                                |
+|activity                                                                  |factor                    |activity of daily living performed [2]                                                |
 |timeDomainSignalBodyAccelerationMeanOnXaxisOfPhone                        |numeric                      |mean of timeDomainSignalBodyAccelerationMeanOnXaxisOfPhone                            |
 |timeDomainSignalBodyAccelerationMeanOnYaxisOfPhone                        |numeric                      |mean of timeDomainSignalBodyAccelerationMeanOnYaxisOfPhone                            |
 |timeDomainSignalBodyAccelerationMeanOnZaxisOfPhone                        |numeric                      |mean of timeDomainSignalBodyAccelerationMeanOnZaxisOfPhone                            |
@@ -79,3 +86,5 @@
 [1] an integer between 1 and 30 to identify one of the 30 subjects   
 [2] one of six activities: walking, walking upstairs, walking downstairs, sitting, standing, laying   
 [3] Fast Fourier Transforms
+
+### **Table 1** - Description of variables.
