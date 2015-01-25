@@ -30,7 +30,7 @@ The data set for this project is located in a zip file [here](https://d396qusza4
 
 <br>
 
-## Creating the Tidy Data
+##  Transformations to Tidy Data
 
 Download the zip file to your computer and unzip it to a directory.  This computer must have RStudio (Version 0.98.1091) installed.  Set the working directory of RStudio to the *UCI HAR Dataset* directory.  Load the *plyr*, *dplyr*, and *reshape2* libraries in RStudio.
 
