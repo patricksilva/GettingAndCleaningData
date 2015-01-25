@@ -68,5 +68,5 @@ tidydata <- function() {
      write.table(td, file = "tidydata.txt", row.names = FALSE)
 
      # send the tidy data output to the console
-     td
+     return(td)
 }
