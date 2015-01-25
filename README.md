@@ -11,7 +11,7 @@ The arduous task of analyzing large data sets can be simplified by cleaning or t
 - Each variable you measure should be in one column
 - Each different observation of that variable should be in a different row
 - There should be one table for each "kind" of variable
-- If you have multiple tables, they should include a column in the table that allows them to be linked[1]
+- If you have multiple tables, they should include a column in the table that allows them to be linked [1]
 
 Data processed in this format works well with the data scientist's analysis tools in R.  To become familiar with this process, we will prepare tidy data from a given data set.
 
