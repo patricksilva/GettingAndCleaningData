@@ -1,9 +1,6 @@
----
-title: "Course Project - README"
-author: "Getting and Cleaning Data"
-date: "January 2015"
-output: html_document
----
+# Course Project - README
+### Getting and Cleaning Data
+### January 2015
    
 <br>
 
